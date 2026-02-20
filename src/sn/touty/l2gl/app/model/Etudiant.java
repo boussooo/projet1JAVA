@@ -1,4 +1,4 @@
-package sn.touty.l2gl.model;
+package sn.touty.l2gl.app.model;
 
 public class Etudiant {
     private String matricule;

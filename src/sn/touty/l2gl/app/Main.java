@@ -1,6 +1,6 @@
 package sn.touty.l2gl.app;
 
-import sn.touty.l2gl.model.*;
+import sn.touty.l2gl.app.model.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class Main {
         e1.afficher();
         e2.afficher();
 
-        sn.touty.l2gl.model.Module m1 = new sn.touty.l2gl.model.Module("JAVA", "Programmation Java", 2.0);
+        sn.touty.l2gl.app.model.Module m1 = new sn.touty.l2gl.app.model.Module("JAVA", "Programmation Java", 2.0);
        // sn.touty.l2gl.app.model.Module m2 = new sn.touty.l2gl.app.model.Module("WEB", "Développement Web");
 
         Note n1 = new Note(e1, m1, 17.5);
